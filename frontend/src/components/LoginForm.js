@@ -79,7 +79,13 @@ function LoginForm(){
                     />
                 </div>     
 
-               
+                <button 
+                type="submit"
+                className="login-button"
+                disabled={loading}>
+                    {loading ? 'Logging in...' : 'Login'}
+                </button> 
+                </form>
                 
         </div>
     </div>
