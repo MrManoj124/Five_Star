@@ -43,5 +43,21 @@ function LoginForm(){
         finally{
             setLoading(false);
         }
-    }
+    };
+
+    return(
+    <div className="login-container">
+        <div className="lodin-card">
+            <div className="login-header">
+                <div className="login-icon">
+                    <User size={40}/>
+                </div>
+                <h1>Welcome Back</h1>
+                <p>Login to continue your journey</p>
+            </div>
+
+            <form className="login-form" onSubmit={handleSubmit}></form>
+        </div>
+    </div>
+    )
 }
