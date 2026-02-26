@@ -56,7 +56,7 @@ function LoginForm(){
                 <p>Login to continue your journey</p>
             </div>
 
-            <form className="login-form" onSubmit={handleSubmit}></form>
+            <form className="login-form" onSubmit={handleSubmit}>
                 <div className="input-group">
                     <User className="input-icon" size={20}/>
                     <input type="text" name="username"
@@ -66,8 +66,23 @@ function LoginForm(){
                     className="input-field"
                     required
                     />
-                    </div>        
+                    </div>    
+
+                <div className="input-group">
+                    <User className="input-icon" size={20}/>
+                    <input type="password" name="password"
+                    value={formData.username}
+                    onChange={handleChange}
+                    placeholder="Enter Your Password..."
+                    className="input-field"
+                    required
+                    />
+                </div>     
+
+               
+                
         </div>
     </div>
-    )
+    );
 }
+
