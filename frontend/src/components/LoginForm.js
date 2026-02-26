@@ -57,6 +57,16 @@ function LoginForm(){
             </div>
 
             <form className="login-form" onSubmit={handleSubmit}></form>
+                <div className="input-group">
+                    <User className="input-icon" size={20}/>
+                    <input type="text" name="username"
+                    value={formData.username}
+                    onChange={handleChange}
+                    placeholder="Enter Your Username..."
+                    className="input-field"
+                    required
+                    />
+                    </div>        
         </div>
     </div>
     )
