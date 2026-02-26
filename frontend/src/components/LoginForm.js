@@ -86,7 +86,11 @@ function LoginForm(){
                     {loading ? 'Logging in...' : 'Login'}
                 </button> 
                 </form>
-                
+                <div className="login-footer">
+                    <p>Don't have an Account ? {' '}
+                        <Link to="/register" className="login-link">Sign Up</Link>
+                    </p>
+                </div>
         </div>
     </div>
     );
