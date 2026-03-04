@@ -82,3 +82,11 @@ body {
 .input-group {
   position: relative;
 }
+
+.input-icon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #9ca3af;
+}
