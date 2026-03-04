@@ -79,3 +79,6 @@ body {
   gap: 24px;
 }
 
+.input-group {
+  position: relative;
+}
