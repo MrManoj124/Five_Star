@@ -133,3 +133,12 @@ body {
   margin-top: 24px;
   color: #6b7280;
 }
+
+
+.login-link {
+  color: #9333ea;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
