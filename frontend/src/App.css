@@ -54,3 +54,9 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+.login-icon svg {
+  color: white;
+  width: 40px;
+  height: 40px;
+}
