@@ -247,3 +247,7 @@ body {
   text-decoration: none;
   transition: color 0.3s ease;
 }
+
+.register-link:hover {
+  color: #06b6d4;
+}
