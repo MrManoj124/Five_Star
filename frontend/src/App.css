@@ -167,3 +167,12 @@ body {
   transform: scale(1);
   transition: transform 0.3s ease;
 }
+
+.register-card:hover {
+  transform: scale(1.05);
+}
+
+.register-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
