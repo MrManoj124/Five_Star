@@ -233,3 +233,9 @@ body {
   opacity: 0.6;
   cursor: not-allowed;
 }
+
+.register-footer {
+  text-align: center;
+  margin-top: 24px;
+  color: #6b7280;
+}
