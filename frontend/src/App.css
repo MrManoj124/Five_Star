@@ -262,3 +262,20 @@ body {
   max-width: 1200px;
   margin: 0 auto;
 }
+
+.categories-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.categories-header h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 16px;
+}
+
+.categories-header p {
+  color: #d1d5db;
+  font-size: 18px;
+}
