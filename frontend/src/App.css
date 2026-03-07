@@ -251,3 +251,10 @@ body {
 .register-link:hover {
   color: #06b6d4;
 }
+
+/* Categories Page Styles */
+.categories-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #312e81 0%, #7e22ce 50%, #db2777 100%);
+  padding: 40px 20px;
+}
