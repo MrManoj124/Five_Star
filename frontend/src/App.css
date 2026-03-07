@@ -284,3 +284,19 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 24px;
 }
+
+.category-card {
+  background: white;
+  border-radius: 16px;
+  padding: 24px;
+  cursor: pointer;
+  transform: scale(1);
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  color: inherit;
+}
+.category-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
