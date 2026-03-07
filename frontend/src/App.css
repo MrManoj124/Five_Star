@@ -258,3 +258,7 @@ body {
   background: linear-gradient(135deg, #312e81 0%, #7e22ce 50%, #db2777 100%);
   padding: 40px 20px;
 }
+.categories-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
