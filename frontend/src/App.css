@@ -279,3 +279,8 @@ body {
   color: #d1d5db;
   font-size: 18px;
 }
+.categories-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+}
