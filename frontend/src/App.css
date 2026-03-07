@@ -300,3 +300,22 @@ body {
   transform: scale(1.05);
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
 }
+.category-icon-wrapper {
+  width: 64px;
+  height: 64px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+  transition: transform 0.3s ease;
+}
+.category-card:hover .category-icon-wrapper {
+  transform: rotate(12deg);
+}
+
+.category-icon-wrapper svg {
+  color: white;
+  width: 32px;
+  height: 32px;
+}
