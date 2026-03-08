@@ -31,3 +31,20 @@ function RegisterForm() {
             toast.error('Passwords do not match!');
             return;
         }
+
+    try {
+            const response = await axios.post(
+                `${process.env.REACT_APP_API_URL}/auth/register`,
+                formData
+            );
+
+            if (response.data.success) {
+                toast.success('Registration successful!');
+                navigate('/');
+            }
+        } catch (error) {
+            toast.error(error.response?.data?.message || 'Registration failed!');
+        } finally {
+            setLoading(false);
+        }
+    };
