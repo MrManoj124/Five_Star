@@ -73,3 +73,16 @@ function RegisterForm() {
                             required
                         />
                     </div>
+
+                    <div className="input-group">
+                        <Mail className="input-icon" size={20} />
+                        <input 
+                            type="email"
+                            name="email"
+                            value={formData.email}
+                            onChange={handleChange}
+                            placeholder="Enter Email..."
+                            className="input-field"
+                            required
+                        />
+                    </div>
