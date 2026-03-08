@@ -59,3 +59,17 @@ function RegisterForm() {
                     <h1>Create Account</h1>
                     <p>Join us today!</p>
                 </div>
+
+                 <form className="register-form" onSubmit={handleSubmit}>
+                    <div className="input-group">
+                        <User className="input-icon" size={20} />
+                        <input 
+                            type="text"
+                            name="username"
+                            value={formData.username}
+                            onChange={handleChange}
+                            placeholder="Enter username..."
+                            className="input-field"
+                            required
+                        />
+                    </div>
