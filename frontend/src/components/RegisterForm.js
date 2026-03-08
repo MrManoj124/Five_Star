@@ -138,4 +138,8 @@ function RegisterForm() {
                         type="submit" 
                         className="register-button"
                         disabled={loading}
-                    ></button>
+                    >
+                    </button>
+                                            {loading ? 'Registering...' : 'Register'}
+                    </button>
+                </form>
