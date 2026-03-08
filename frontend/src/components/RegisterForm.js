@@ -111,3 +111,15 @@ function RegisterForm() {
                             required
                         />
                     </div>
+                     <div className="input-group">
+                        <Lock className="input-icon" size={20} />
+                        <input 
+                            type="password"
+                            name="confirmPassword"
+                            value={formData.confirmPassword}
+                            onChange={handleChange}
+                            placeholder="Re-enter password..."
+                            className="input-field"
+                            required
+                        />
+                    </div>
