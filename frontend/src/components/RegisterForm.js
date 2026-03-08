@@ -123,3 +123,14 @@ function RegisterForm() {
                             required
                         />
                     </div>
+                     <div className="input-group">
+                        <Calendar className="input-icon" size={20} />
+                        <input 
+                            type="date"
+                            name="dob"
+                            value={formData.dob}
+                            onChange={handleChange}
+                            className="input-field"
+                            required
+                        />
+                    </div>
