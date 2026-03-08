@@ -48,3 +48,14 @@ function RegisterForm() {
             setLoading(false);
         }
     };
+
+    return (
+        <div className="register-container">
+            <div className="register-card">
+                <div className="register-header">
+                    <div className="register-icon">
+                        <User size={40} />
+                    </div>
+                    <h1>Create Account</h1>
+                    <p>Join us today!</p>
+                </div>
