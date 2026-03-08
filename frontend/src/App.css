@@ -345,3 +345,7 @@ body {
   color: #1f2937;
   margin-bottom: 8px;
 }
+.category-card p {
+  color: #6b7280;
+  margin-bottom: 16px;
+}
