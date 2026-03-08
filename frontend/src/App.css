@@ -323,3 +323,19 @@ body {
 .icon-food {
   background: linear-gradient(135deg, #fb923c 0%, #ef4444 100%);
 }
+
+.icon-mechanical {
+  background: linear-gradient(135deg, #4b5563 0%, #1f2937 100%);
+}
+
+.icon-tech {
+  background: linear-gradient(135deg, #3b82f6 0%, #9333ea 100%);
+}
+
+.icon-medical {
+  background: linear-gradient(135deg, #f87171 0%, #ec4899 100%);
+}
+
+.icon-media {
+  background: linear-gradient(135deg, #a855f7 0%, #6366f1 100%);
+}
