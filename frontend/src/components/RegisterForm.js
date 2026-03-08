@@ -86,3 +86,16 @@ function RegisterForm() {
                             required
                         />
                     </div>
+
+                     <div className="input-group">
+                        <Phone className="input-icon" size={20} />
+                        <input 
+                            type="tel"
+                            name="phoneNumber"
+                            value={formData.phoneNumber}
+                            onChange={handleChange}
+                            placeholder="Enter Phone number..."
+                            className="input-field"
+                            required
+                        />
+                    </div>
