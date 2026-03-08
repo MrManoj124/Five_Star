@@ -356,3 +356,10 @@ body {
   font-weight: 600;
   transition: transform 0.3s ease;
 }
+.category-card:hover .category-link {
+  transform: translateX(8px);
+}
+
+.category-link svg {
+  margin-left: 4px;
+}
