@@ -134,3 +134,8 @@ function RegisterForm() {
                             required
                         />
                     </div>
+                    <button 
+                        type="submit" 
+                        className="register-button"
+                        disabled={loading}
+                    ></button>
