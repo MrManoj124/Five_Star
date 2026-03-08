@@ -13,3 +13,6 @@ function RegisterForm() {
         confirmPassword: "",
         dob: ""
     });
+
+    const [loading, setLoading] = useState(false);
+    const navigate = useNavigate();
