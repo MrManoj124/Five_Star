@@ -319,3 +319,7 @@ body {
   width: 32px;
   height: 32px;
 }
+/* Category Icon Colors */
+.icon-food {
+  background: linear-gradient(135deg, #fb923c 0%, #ef4444 100%);
+}
