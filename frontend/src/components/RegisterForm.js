@@ -141,5 +141,14 @@ function RegisterForm() {
                     >
                     </button>
                                             {loading ? 'Registering...' : 'Register'}
-                    </button>
                 </form>
+                <div className="register-footer">
+                    <p>
+                        Already have an account?{' '}
+                        <Link to="/" className="register-link">Sign In</Link>
+                    </p>
+                </div>
+            </div>
+        </div>
+    );
+}
