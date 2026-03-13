@@ -381,3 +381,6 @@ body {
 .detail-container.bg-medical {
   background: linear-gradient(135deg, #f87171 0%, #ec4899 100%);
 }
+.detail-container.bg-media {
+  background: linear-gradient(135deg, #a855f7 0%, #6366f1 100%);
+}
