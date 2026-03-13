@@ -369,3 +369,6 @@ body {
   min-height: 100vh;
   padding: 40px 20px;
 }
+.detail-container.bg-food {
+  background: linear-gradient(135deg, #fb923c 0%, #ef4444 100%);
+}
