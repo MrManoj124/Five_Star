@@ -454,3 +454,9 @@ body {
 .detail-item:hover {
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
 }
+.detail-item h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 8px;
+}
