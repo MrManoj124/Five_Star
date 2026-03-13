@@ -375,3 +375,6 @@ body {
 .detail-container.bg-mechanical {
   background: linear-gradient(135deg, #4b5563 0%, #1f2937 100%);
 }
+.detail-container.bg-tech {
+  background: linear-gradient(135deg, #3b82f6 0%, #9333ea 100%);
+}
