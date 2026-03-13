@@ -460,3 +460,7 @@ body {
   color: #1f2937;
   margin-bottom: 8px;
 }
+.detail-item p {
+  color: #6b7280;
+  font-size: 14px;
+}
