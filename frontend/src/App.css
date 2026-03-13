@@ -445,3 +445,9 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 24px;
 }
+.detail-item {
+  background: #f9fafb;
+  border-radius: 12px;
+  padding: 24px;
+  transition: box-shadow 0.3s ease;
+}
