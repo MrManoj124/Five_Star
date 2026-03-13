@@ -384,3 +384,7 @@ body {
 .detail-container.bg-media {
   background: linear-gradient(135deg, #a855f7 0%, #6366f1 100%);
 }
+.detail-wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+}
