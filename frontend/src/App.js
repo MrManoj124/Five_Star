@@ -8,10 +8,7 @@ import './App.css';
 function App(){
   return (
     <Router>
-      <Toaster position="top-right"/>
-      <Routes>
-        <Route path="/" element={<LoginForm/>}></Route>
-      </Routes>
+      <Route path="/" element={<LoginForm />} />
 
     </Router>
   );
