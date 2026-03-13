@@ -400,3 +400,6 @@ body {
   transition: transform 0.2s ease;
   text-decoration: none;
 }
+.back-button:hover {
+  transform: translateX(8px);
+}
