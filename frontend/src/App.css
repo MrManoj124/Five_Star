@@ -363,3 +363,9 @@ body {
 .category-link svg {
   margin-left: 4px;
 }
+
+/* Category Detail Page Styles */
+.detail-container {
+  min-height: 100vh;
+  padding: 40px 20px;
+}
