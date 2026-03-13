@@ -424,3 +424,8 @@ body {
   align-items: center;
   justify-content: center;
 }
+.detail-icon-wrapper svg {
+  color: white;
+  width: 48px;
+  height: 48px;
+}
