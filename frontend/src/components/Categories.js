@@ -32,5 +32,12 @@ function Categories(){
             path: '/medical-things',
             description: 'Explore medical things'
         },
+        { 
+            name: 'Media Things', 
+            icon: Film, 
+            iconClass: 'icon-media',
+            path: '/media-things',
+            description: 'Explore media things'
+        }
     ]
 }
