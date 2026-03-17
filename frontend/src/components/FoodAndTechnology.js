@@ -18,5 +18,24 @@ function FoodAndTechnology(){
                         <h1>Food and Technology</h1>
                         <p>Explore the intersection of culinary arts and modern technology</p>
                     </div>
+
+                    <div className="detail-grid">
+                        <div className="detail-item">
+                            <h3>Smart Kitchen Appliances</h3>
+                            <p>Discover the latest in smart cooking technology</p>
+                        </div>
+                        <div className="detail-item">
+                            <h3>Food Delivery Apps</h3>
+                            <p>Revolutionary platforms changing how we order food</p>
+                        </div>
+                        <div className="detail-item">
+                            <h3>Recipe Management</h3>
+                            <p>Digital solutions for organizing your favorite recipes</p>
+                        </div>
+                        <div className="detail-item">
+                            <h3>Nutrition Tracking</h3>
+                            <p>Apps and tools for monitoring your dietary intake</p>
+                        </div>
+                    </div>
     );
 }
