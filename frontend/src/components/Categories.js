@@ -39,5 +39,9 @@ function Categories(){
             path: '/media-things',
             description: 'Explore media things'
         }
-    ]
+    ];
+
+    return(
+        
+    )
 }
