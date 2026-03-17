@@ -37,5 +37,8 @@ function FoodAndTechnology(){
                             <p>Apps and tools for monitoring your dietary intake</p>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
     );
 }
