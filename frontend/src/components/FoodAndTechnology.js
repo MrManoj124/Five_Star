@@ -9,5 +9,8 @@ function FoodAndTechnology(){
                 <Link to="/categories" className="back-button">
                     <ArrowLeft size={20} /> Back to Categories
                 </Link>
+
+                <div className="detail-card"></div>
+                    
     );
 }
