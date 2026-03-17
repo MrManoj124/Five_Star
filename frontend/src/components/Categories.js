@@ -25,5 +25,12 @@ function Categories(){
             path: '/tech-tools',
             description: 'Explore tech tools'
         },
+        { 
+            name: 'Medical Things', 
+            icon: Heart, 
+            iconClass: 'icon-medical',
+            path: '/medical-things',
+            description: 'Explore medical things'
+        },
     ]
 }
