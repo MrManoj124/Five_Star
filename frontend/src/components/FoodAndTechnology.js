@@ -3,5 +3,7 @@ import { Link } from "react-router-dom";
 import { Package, ArrowLeft } from 'lucide-react';
 
 function FoodAndTechnology(){
-    
+    return (
+        
+    );
 }
