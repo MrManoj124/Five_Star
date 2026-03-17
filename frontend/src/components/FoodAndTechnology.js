@@ -4,6 +4,7 @@ import { Package, ArrowLeft } from 'lucide-react';
 
 function FoodAndTechnology(){
     return (
-        
+        <div className="detail-container bg-food">
+            <div className="detail-wrapper"></div>
     );
 }
