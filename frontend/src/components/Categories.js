@@ -18,5 +18,12 @@ function Categories(){
             path: '/mechanical-items',
             description: 'Explore mechanical items'
         },
+        { 
+            name: 'Tech Tools', 
+            icon: Monitor, 
+            iconClass: 'icon-tech',
+            path: '/tech-tools',
+            description: 'Explore tech tools'
+        },
     ]
 }
