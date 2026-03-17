@@ -41,14 +41,14 @@ function Categories(){
         }
     ];
 
-    return(
-        <div className="categories-container"></div>
-            <div className="categories-wrapper"></div>
-            <div className="categories-header">
+    return (
+        <div className="categories-container">
+            <div className="categories-wrapper">
+                <div className="categories-header">
                     <h1>Choose Your Category</h1>
                     <p>Select a category to explore amazing content</p>
                 </div>
-
+                
                 <div className="categories-grid">
                     {categories.map((category, index) => {
                         const Icon = category.icon;
@@ -69,7 +69,7 @@ function Categories(){
                             </Link>
                         );
                     })}
-                    </div>
+                </div>
             </div>
         </div>
     );
