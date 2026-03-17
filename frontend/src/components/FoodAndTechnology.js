@@ -42,3 +42,5 @@ function FoodAndTechnology() {
         </div>
     );
 }
+
+export default FoodAndTechnology;
