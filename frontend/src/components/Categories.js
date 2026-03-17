@@ -11,5 +11,12 @@ function Categories(){
             path: '/food-and-technology',
             description: 'Explore food and technology'
         },
+        { 
+            name: 'Mechanical Items', 
+            icon: Wrench, 
+            iconClass: 'icon-mechanical',
+            path: '/mechanical-items',
+            description: 'Explore mechanical items'
+        },
     ]
 }
