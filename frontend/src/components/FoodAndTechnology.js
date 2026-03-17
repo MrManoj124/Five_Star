@@ -11,6 +11,12 @@ function FoodAndTechnology(){
                 </Link>
 
                 <div className="detail-card"></div>
-                    
+                    <div className="detail-header">
+                        <div className="detail-icon-wrapper icon-food">
+                            <Package size={48} />
+                        </div>
+                        <h1>Food and Technology</h1>
+                        <p>Explore the intersection of culinary arts and modern technology</p>
+                    </div>
     );
 }
