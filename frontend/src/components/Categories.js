@@ -43,5 +43,6 @@ function Categories(){
 
     return(
         <div className="categories-container"></div>
+            <div className="categories-wrapper"></div>
     );
 }
